@@ -1,0 +1,22 @@
+# Ambientes virtuais e Python
+backend/venv/
+backend/**/__pycache__/
+backend/*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Dependências e builds do Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/npm-debug.log*
+
+# Variáveis de ambiente com dados sensíveis
+*.env
+*.env.local
+
+# Ficheiros de sistema e editores
+.DS_Store
+.vscode/
+.idea/

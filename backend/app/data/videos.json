@@ -1,0 +1,92 @@
+[
+  {
+    "id": "vid-001",
+    "videoUrl": "http://localhost:8000/media/videos/generated/1.mp4",
+    "prompt": "Pessoa servindo café",
+    "category": "urbano",
+    "isAi": true,
+    "subject": "Café",
+    "explanation": "Vídeo gerado por modelo de IA."
+  },
+  {
+    "id": "vid-002",
+    "videoUrl": "http://localhost:8000/media/videos/generated/2.mp4",
+    "prompt": "Homem falando com a câmera para um vídeo no YouTube",
+    "category": "urbano",
+    "isAi": true,
+    "subject": "Homem gravando",
+    "explanation": "Vídeo gerado por modelo de IA. Observe o fundo desfocado."
+  },
+  {
+    "id": "vid-003",
+    "videoUrl": "http://localhost:8000/media/videos/generated/3.mp4",
+    "prompt": "Panda vermelho na floresta",
+    "category": "wildlife",
+    "isAi": true,
+    "subject": "Panda vermelho",
+    "explanation": "Vídeo gerado por modelo de IA."
+  },
+  {
+    "id": "vid-004",
+    "videoUrl": "http://localhost:8000/media/videos/generated/4.mp4",
+    "prompt": "Chefe cozinhando em um restaurante",
+    "category": "urbano",
+    "isAi": true,
+    "subject": "Comida",
+    "explanation": "Vídeo gerado por modelo de IA."
+  },
+  {
+    "id": "vid-005",
+    "videoUrl": "http://localhost:8000/media/videos/generated/5.mp4",
+    "prompt": "Mulher falando com câmera para um vídeo no YouTube",
+    "category": "urbano",
+    "isAi": true,
+    "subject": "Mulher gravando",
+    "explanation": "Vídeo gerado por modelo de IA."
+  },
+  {
+    "id": "vid-006",
+    "videoUrl": "http://localhost:8000/media/videos/generated/real/6.mp4",
+    "prompt": "Fotos de Guaxinim",
+    "category": "wildlife",
+    "isAi": false,
+    "subject": "Fotos de guaxinim",
+    "explanation": "Vídeo real de uma reportagem da BBC."
+  },
+  {
+    "id": "vid-007",
+    "videoUrl": "http://localhost:8000/media/videos/generated/real/7.mp4",
+    "prompt": "Guaxinim andando na floresta",
+    "category": "wildlife",
+    "isAi": false,
+    "subject": "Guaxinim andando",
+    "explanation": "Vídeo real de uma reportagem da BBC."
+  },
+  {
+    "id": "vid-008",
+    "videoUrl": "http://localhost:8000/media/videos/generated/real/8.mp4",
+    "prompt": "",
+    "category": "humano",
+    "isAi": false,
+    "subject": "humano",
+    "explanation": "Vídeo real."
+  },
+  {
+    "id": "vid-009",
+    "videoUrl": "http://localhost:8000/media/videos/generated/real/9.mp4",
+    "prompt": "",
+    "category": "humano",
+    "isAi": false,
+    "subject": "humano",
+    "explanation": "Vídeo real."
+  },
+  {
+    "id": "vid-010",
+    "videoUrl": "http://localhost:8000/media/videos/generated/real/10.mp4",
+    "prompt": "",
+    "category": "humano",
+    "isAi": false,
+    "subject": "humano",
+    "explanation": "Vídeo real."
+  }
+]

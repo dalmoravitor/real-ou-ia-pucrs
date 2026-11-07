@@ -1,0 +1,92 @@
+[
+  {
+    "id": "txt-001",
+    "textContent": "Claro, acontece o tempo todo. Não é grande coisa corrigir os erros, eles são principalmente erros de texto e tal. Mas de vez em quando há um grande problema, e eu costumo ter que apontar. Por exemplo, há alguns meses, um dos meus codificadores construiu uma rede neural enorme, complexa e perfeita para eu usar num projeto muito importante. Mas, como acontece, toda a rede não estava conectada a uma única entrada! Foi um beco sem saída, então tive que mandar de volta um monte de consertos.",
+    "prompt": "Seus programadores muitas vezes cometem erros simples que você pode reconhecer?",
+    "category": "prompt",
+    "isAi": true,
+    "subject": "Pergunta para IA",
+    "explanation": "Texto gerado por LLM."
+  },
+  {
+    "id": "txt-002",
+    "textContent": "Numa toca no chão vivia um hobbit.",
+    "prompt": "Escreva o começo de um livro de fantasia",
+    "category": "literatura",
+    "isAi": false,
+    "subject": "literatura",
+    "explanation": "Trecho humano autêntico extraído do livro 'O Hobbit', de J.R.R. Tolkien."
+  },
+  {
+    "id": "txt-003",
+    "textContent":"— Tu viu onde eu deixei a chave do carro?\n— Na geladeira de novo, aposto.\n— Para, isso foi uma vez só.\n— Duas. Uma com a chave, outra com o controle da TV.\n— Tá, mas o controle não conta, eu tava com sono.\n— Olha na fruteira então.\n— …Achei",
+    "prompt": "",
+    "category": "prompt",
+    "isAi": true,
+    "subject": "Pergunta para IA",
+    "explanation": "Texto gerado por LLM."
+  },
+  {
+    "id": "txt-004",
+    "textContent": "A casa da avó tinha cheiro de café requentado e sabão em pedra. No corredor, o relógio de parede atrasava sete minutos, e ninguém nunca acertou. Ela dizia que era o tempo que faltava pra gente chegar. Hoje o relógio está comigo, ainda atrasado, e eu continuo sem coragem de mexer nos ponteiros.",
+    "prompt": "",
+    "category": "prompt",
+    "isAi": true,
+    "subject": "Pergunta para IA",
+    "explanation": "Texto gerado por LLM."
+  },
+  {
+    "id": "txt-005",
+    "textContent": "O pão fica duro não porque seca, mas porque o amido se reorganiza. Durante o forno, as moléculas de amido absorvem água e se desorganizam; com o tempo, elas voltam a se alinhar e expulsam essa água, endurecendo a massa. Por isso, aquecer o pão por alguns minutos devolve parte da maciez.",
+    "prompt": "",
+    "category": "prompt",
+    "isAi": true,
+    "subject": "Pergunta para IA",
+    "explanation": "Texto gerado por LLM."
+  },
+  {
+    "id": "txt-006",
+    "textContent": "Uma cadela que havia desaparecido durante uma mudança em Santa Maria (RS) foi encontrada nesta segunda-feira, a 40 km de distância, na porta da antiga casa da família. Segundo a tutora, o animal estava magro, mas sem ferimentos. Vizinhos relataram ter visto a cadela rondando a rua nos últimos três dias.",
+    "prompt": "",
+    "category": "prompt",
+    "isAi": true,
+    "subject": "Pergunta para IA",
+    "explanation": "Texto gerado por LLM."
+  },
+  {
+    "id": "txt-007",
+    "textContent": "Lista de coisas que eu prometi fazer em 2026: aprender violão, ler um livro por mês, parar de comprar planta que eu sei que vou matar. Status atual: o violão virou cabide, li dois livros e meio, e ontem comprei uma samambaia. Ela se chama Esperança. Veremos. ",
+    "prompt": "",
+    "category": "real",
+    "isAi": true,
+    "subject": "Pergunta para IA",
+    "explanation": "Texto gerado por LLM."
+  },
+  {
+    "id": "txt-008",
+    "textContent": "A felicidade de sua vida depende da qualidade de seus pensamentos.",
+    "prompt": "",
+    "category": "real",
+    "isAi": false,
+    "subject": "Texto humano",
+    "explanation": "Texto gerado por humano."
+  },
+  {
+    "id": "txt-009",
+    "textContent": "Não se preocupe em entender, viver ultrapassa qualquer entendimento.",
+    "prompt": "",
+    "category": "real",
+    "isAi": false,
+    "subject": "Texto humano",
+    "explanation": "Texto gerado por humano."
+  },
+  {
+    "id": "txt-010",
+    "textContent": "O que não provoca minha morte faz com que eu fique mais forte.",
+    "prompt": "",
+    "category": "real",
+    "isAi": false,
+    "subject": "Texto humano",
+    "explanation": "Texto gerado por humano."
+  }
+]
