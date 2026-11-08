@@ -12,14 +12,30 @@ TEXTOS_PATH = DATA_DIR / "textos.json"
 MEDIA_DIR = APP_DIR / "media"
 DB_PATH = Path(os.getenv("DB_PATH", APP_DIR / "leaderboard.db"))
 
-CORS_ORIGINS = [
-    origin.strip()
-    for origin in os.getenv(
-        "CORS_ORIGINS",
-        "http://localhost:5173,http://localhost:5174",
-    ).split(",")
-    if origin.strip()
-]
+# Domínio público do frontend em produção (Railway)
+PRODUCTION_FRONTEND_URL = "https://real-ou-ia.up.railway.app"
+
+
+def _build_cors_origins() -> list[str]:
+    origins = [
+        origin.strip().rstrip("/")
+        for origin in os.getenv(
+            "CORS_ORIGINS",
+            "http://localhost:5173,http://localhost:5174",
+        ).split(",")
+        if origin.strip()
+    ]
+    # Sempre libera o frontend de produção, mesmo que CORS_ORIGINS esteja desatualizada.
+    origins.append(PRODUCTION_FRONTEND_URL)
+    # O Railway injeta o domínio atual do serviço "web" em RAILWAY_SERVICE_WEB_URL;
+    # assim, se o domínio do frontend mudar de novo, o backend acompanha no próximo deploy.
+    railway_web_domain = os.getenv("RAILWAY_SERVICE_WEB_URL", "").strip().rstrip("/")
+    if railway_web_domain:
+        origins.append(f"https://{railway_web_domain.removeprefix('https://')}")
+    return list(dict.fromkeys(origins))
+
+
+CORS_ORIGINS = _build_cors_origins()
 CORS_ORIGIN_REGEX = os.getenv("CORS_ORIGIN_REGEX", r"https://.*\.vercel\.app")
 
 LOCAL_API_PREFIX = "http://localhost:8000"

@@ -16,7 +16,7 @@ export const GAME_MODES: { id: ModeFilter; label: string }[] = [
 ];
 
 const DEFAULT_API_URL = import.meta.env.PROD
-  ? "https://semana-academica-api.onrender.com"
+  ? "https://api-production-872dc.up.railway.app"
   : "http://localhost:8000";
 
 export const API_BASE_URL = (import.meta.env.VITE_API_URL || DEFAULT_API_URL).replace(/\/$/, "");
